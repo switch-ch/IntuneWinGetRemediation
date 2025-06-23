@@ -8,7 +8,7 @@
   2. If installed check its version and compare it to the latest in Winget, if there is an update install it
   3. When the latest is installed, do nothing.
 #>
-$logPath = "c:\ProgramData\IntuneRemediation\gitCheck.txt"
+$logPath = "c:\ProgramData\IntuneRemediation\Git-Check.txt"
 new-item $logPath -ItemType File -Force | Out-null
 
 Start-Transcript -Path $logPath -Force
